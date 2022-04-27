@@ -1,0 +1,85 @@
+
+
+
+body {
+	background-color: white;
+	color: black;
+	font-family: 'Rubik', sans-serif;
+}
+
+#home {
+	background-image: url(images/bio-bg.jpg);
+}
+
+#home h1 {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding-top: 250px;
+}
+
+
+#bio {
+	background-color: black;
+	padding: 20px;
+	align-content: ;
+	margin-top: 20px;
+}
+
+#id-pic {
+  	border-style: double;
+  	width: 250px;
+}
+
+.bio-name {
+	color: white;
+}
+
+#bio h2 {
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #b4917a;
+	color: whitesmoke;
+}
+
+#bio h3 {
+	padding-top: 70px;
+	color: #b4917a;
+}
+
+
+
+#bg {
+	background-color: #eeeceb;
+	opacity: 0.9;
+}
+
+#expertise {
+	background-color: #b4917a;
+	opacity: 0.9;
+}
+
+
+
+h2 {
+
+
+}
+
+.about-me {
+	margin: 50px;
+	padding: 50px;
+}
+
+.list-bio {
+	list-style-type: none;
+}
+
+.job-title {
+	font-weight: bold;
+}
+
+
+.social-media {
+	width: 50px;
+}

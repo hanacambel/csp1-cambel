@@ -8,8 +8,10 @@ body {
 }
 
 #home {
-	background-image: url(images/bio-bg.jpg);
+/*	background-image: url(images/bio-bg.jpg);*/
+	background-color: #b4917a;
 }
+
 
 #home h1 {
 	text-align: center;

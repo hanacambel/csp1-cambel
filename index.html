@@ -11,13 +11,13 @@
 
 	<title>Hannah Cambel | Portfolio</title>
 </head>
-<body class="min-vh-100">
+
+<body>
 
 	<div class="">
 
-
 		<!--  Navbar component start -->
-	    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-transparent">
+	    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 	      <a class="navbar-brand" href="#">Portfolio</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="navbar-toggler-icon"></span>
@@ -38,80 +38,50 @@
 	    </nav>
 		 <!-- Navbar component end -->
 
-		 <!-- Home -->
-		 <div id="home" class="min-vh-100">
-		 	<h1>Hello, welcome to my portfolio!</h1>
+		 <!-- Home start -->
 
+		 <div id="home" class="container-fluid justify-content-center min-vh-100">
+		 		<h1>Hi, I'm HANNAH.</h1>
+		 		<hr>
+		 			<div class="row justify-content-center">
+		 				<img class="d-none d-md-block col-xl-5 pb-3" src="images/hana-4.jpg">
+		 				<h4 class="col-md-6 col-xl-5 text-center pb-3">
+		 					Motivated, teamwork-oriented, and responsible Industrial Engineer with three years significant experience in supply chain industry. Highly educated, posessing a Bachelor's degree, and professional certificate as a Six Sigma Yellow Belter.		 					
+		 				</h4>
+		 				
+		 			</div>
 		 </div>
 
-
-		 <!-- Home -->
-
+		 <!-- Home end -->
 
 	    <!-- Bio start -->
-	    <div id="bio" class="container-fluid py-3 min-vh-100">
+	    <div id="bio" class="py-3 min-vh-100">
 	    		<h2>Bio</h2>
 
-	    	<div class="row justify-content-center">    		
+	    	<div class="text-center">    		
 
-	    		<div class="col-md-5 col-xl-2 py-3 m-2 rounded">
-		    		<img src="images/id-pic.png" id="id-pic" class="img-fluid rounded-circle d-none d-md-block">
-                </div>
+	    		<div class="">
+		    		<img src="images/id-pic.png" id="id-pic" class="img-fluid rounded-circle text-center mt-5">
+           </div>
 
-	    		<div class="text-center col-md-5 col-xl-3 m-2 rounded">
-		    		<h3 class="mt-3">
-		    			Hi, my name is Hannah Marie Cambel! I am an Industrial Engineer with three years of experience and currently studying to be Full-stack Web Developer.
-		    		</h3>
+	    		<div class="text-center">
+	    			<div id="intro">
+	    				<h3 class="mt-2">
+	    					Hi, my name is Hannah Marie Cambel, nice to meet you!
+	    				</h3>
+	    				<h4>
+	    					I am an Industrial Engineer and currently studying to be Full-stack Web Developer. I am currently working as a Statistical Analyst in a Data Collection organization.
+	    				</h4>
+	    				<h4>
+	    					I love travelling. I enjoy a good coffee and watching good tv shows especially kdrama. I would happy to get to know you.
+	    				</h4>
+	    			</div>
+		    		
 		    	</div>
 	 	    	                  
-                <div id="bg" class="col-md-5 col-xl-3 py-3 m-2 rounded">
-                    <h5>Background</h5>
-		    				<ul class="list-bio">
-		    					<li class="job-title">Statistical Analyst</li>
-		    					<li>Philippine Statistics Authority</li>
-		    					<li>July 2021 - present</li>
-		    					
-		    					<li class="job-title mt-3">Inventory and Planning Control Associate</li>	    				
-		    					<li>Philippine Statistics Authority</li>
-		    					<li>July 2021 - present</li>
-		    					
-		    					<li class="job-title mt-3">Demand Planner Assistant</li>
-		    					<li>Philippine Statistics Authority</li>
-		    					<li>July 2021 - present</li>		    					
-		    				</ul>
-                </div>
+                
 
-                <div id="expertise" class="col-md-5 col-xl-3 py-3 m-2 rounded">
-                    <h5>Expertise</h5>
-		    				<ul class="list-bio">
-		    					<li>Demand Planning</li>
-		    						<ul>
-		    							<li>Sales Forecasting</li>
-		    							<li>Budget Preparation (open to buy)</li>
-		    						</ul>
-		    					<li>Purchase Management</li>
-		    						<ul>
-		    							<li>Order Status Monitoring</li>
-		    							<li>Monthly delivery plan review</li>
-		    							<li>Defectives for return monitoring</li>
-		    						</ul>
-		    					<li>Pricing Management</li>
-		    						<ul>
-		    							<li>Price Margin Analysis</li>
-		    							<li>Permanent and promotional discounting recommendation</li>
-		    						</ul>		    				
-		    					<li>Inventory Management</li>
-		    						<ul>
-		    							<li>Monthly sales and stock level analysis</li>
-		    							<li>Assortment planning</li>
-		    						</ul>
-		    					<li>Brand Management</li>
-		    						<ul>
-		    							<li>Brand performance review</li>
-		    							<li>Store productivity analysis</li>
-		    						</ul>
-		    				</ul>
-                </div>
+                
 	    	</div>
 	    </div>	    
 	    <!-- Bio end -->
@@ -119,33 +89,84 @@
 
 	    <!-- What I Do start -->
 	    <div id="what-i-do" class="container-fluid">
-	    	<h2>What I Do</h2>
+	    	<h2 class="mt-5 text-center">What I Do</h2>
 
-	    	<h5>My Recent Projects</h5>
+            <div class="container-fluid m-5">
+            	<div class="row justify-content-around">
+            			<div id="bg" class="col-md-4 col-xl-5 py-3 m-2 rounded">
+            				<h5>Background</h5>
+					    				<ul class="list-bio">
+					    					<li class="job-title">Statistical Analyst</li>
+					    					<li>Philippine Statistics Authority</li>
+					    					<li>July 2021 - present</li>
+					    					
+					    					<li class="job-title mt-3">Inventory and Planning Control Associate</li>	    				
+					    					<li>Philippine Statistics Authority</li>
+					    					<li>July 2021 - present</li>
+					    					
+					    					<li class="job-title mt-3">Demand Planner Assistant</li>
+					    					<li>Philippine Statistics Authority</li>
+					    					<li>July 2021 - present</li>		    					
+					    				</ul>
+			                </div>
 
-            <div class="d-lg-flex justify-content-center p-md-5">
-              <!-- Project 1 Start -->
-              <div class="card bg-secondary col-xl-5 mb-5 mb-xl-0">
-                <div class="card-body">
-                  <img src="images/proj-1.jpg" class="card-img-top">
-                  <h5 class="card-title">Simple Webpage</h5>
-                  <a href="https://codepen.io/hanamarie/pen/abVrvZy" target="_blank" class="card-link">View More</a>
-                </div>
-              </div>
-              <!-- Project 1 End -->
+			             <div id="expertise" class="col-md-4 col-xl-5 py-3 m-2 rounded">
+			                 <h5>Expertise</h5>
+						    				<ul class="list-bio">
+						    					<li>Demand Planning</li>
+						    						<ul>
+						    							<li>Sales Forecasting</li>
+						    							<li>Budget Preparation (open to buy)</li>
+						    						</ul>
+						    					<li>Purchase Management</li>
+						    						<ul>
+						    							<li>Order Status Monitoring</li>
+						    							<li>Monthly delivery plan review</li>
+						    							<li>Defectives for return monitoring</li>
+						    						</ul>
+						    					<li>Pricing Management</li>
+						    						<ul>
+						    							<li>Price Margin Analysis</li>
+						    							<li>Permanent and promotional discounting recommendation</li>
+						    						</ul>		    				
+						    					<li>Inventory Management</li>
+						    						<ul>
+						    							<li>Monthly sales and stock level analysis</li>
+						    							<li>Assortment planning</li>
+						    						</ul>
+						    					<li>Brand Management</li>
+						    						<ul>
+						    							<li>Brand performance review</li>
+						    							<li>Store productivity analysis</li>
+						    						</ul>
+						    				</ul>            	
+            				</div>
+            		</div>
 
-              <!-- Project 2 Start -->
-              <div class="card  bg-secondary col-xl-5 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
-                <div class="card-body">
-                  <img src="images/proj-2.jpg" class="card-img-top">
-                  <h5 class="card-title">Simple Survey Form</h5>
-                  <a href="https://codepen.io/hanamarie/pen/ZEaNbrK" target="_blank" class="card-link">View More</a>
-                </div>
-              </div>
-              <!-- Project 2 End -->
+          	    	<h5 class="text-center mt-5">My Recent Projects</h5>
+                      <div class="d-lg-flex justify-content-center p-md-5">
+                        <!-- Project 1 Start -->
+                        <div class="card col-xl-5 mb-5 mb-xl-0">
+                          <div class="card-body">
+                            <img src="images/proj-1.jpg" class="card-img-top">
+                            <h5 class="card-title">Simple Webpage</h5>
+                            <a href="https://codepen.io/hanamarie/pen/abVrvZy" target="_blank" class="card-link">View More</a>
+                          </div>
+                        </div>
+                        <!-- Project 1 End -->
 
+                        <!-- Project 2 Start -->
+                        <div class="card col-xl-5 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+                          <div class="card-body">
+                            <img src="images/proj-2.jpg" class="card-img-top">
+                            <h5 class="card-title">Simple Survey Form</h5>
+                            <a href="https://codepen.io/hanamarie/pen/ZEaNbrK" target="_blank" class="card-link">View More</a>
+                          </div>
+                        </div>
+                        <!-- Project 2 End -->
+                      </div>
             </div>
-
+           
 	    </div>
 	    <!-- What I Do end -->
 
@@ -153,7 +174,7 @@
 
 	   <!-- Form section start -->
 
-	   <div id="get-in-touch" class="container-fluid p-3 p-md-5">
+	   <div id="get-in-touch" class="container-fluid p-3 p-md-5 text-center">
 	     <h2 class="text-center pb-3">Get in Touch</h2>	    
 	     <div class="bg-secondary rounded offset-xl-4 col-xl-4 mb-5 mb-xl-0 p-3">
 	       <form>
@@ -186,9 +207,8 @@
 
 	   <!-- Form section end -->
 
-
 	    	<div class="container-fluid row flex-row-reverse justify-content-around">
-	    		<div class="row  m-5 justify-content-around col-xl-4 offset-xl-4 ">
+	    		<div class="row  m-1 justify-content-around col-xl-4 offset-xl-4 ">
 	    			<a href="https://gitlab.com/b177-cambel" target="_blank" id=""><img src="images/git.png" class="img-fluid social-media"></a>
 
 	    			<a href="https://www.linkedin.com/in/hannah-marie-cambel-524b80161/" target="_blank" id=""><img src="images/linkedin.png" class="img-fluid social-media"></a>
@@ -204,7 +224,7 @@
 	    <!-- Get in Touch end -->
 
 
-	    <footer class="mt-5 p-3 bg-dark text-light">
+	    <footer class="mt-3 p-3 bg-dark text-light">
             <h6 class="text-center">Hannah Marie Cambel</h6>
             <p class="text-center mb-1">Full Stack Web Developer/Industrial Engineer</p>
             <p class="text-center">&copy; All Rights Reserved 2022</p>

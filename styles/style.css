@@ -124,6 +124,10 @@ body {
 		font-size: 50px;
 	}
 
+	#home h4 {
+		font-size: 20px;
+	}
+
 	#home div {
 		margin-top: 20px;
 	}
@@ -178,7 +182,6 @@ body {
 }
 
 #bio-title {
-	font-size: 50px;
 	margin-top: 20px;
 }
 
